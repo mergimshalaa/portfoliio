@@ -6,7 +6,7 @@ export function Home() {
     <>
       <Container>
         <Content>
-          <Title>
+          <Title data-testid="full-name">
             <FirstLetterStyle>M</FirstLetterStyle>ergim{" "}
             <FirstLetterStyle>S</FirstLetterStyle>hala
           </Title>
