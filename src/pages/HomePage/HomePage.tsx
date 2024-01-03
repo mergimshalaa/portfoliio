@@ -1,10 +1,14 @@
 import Typewriter from "typewriter-effect";
-import { Container, Content, FirstLetterStyle, Subtitle, Title } from "./home-styled-component";
+import diffusion from "../../img/diffusion1.mp4";
+import { BackgroundVideo, Container, Content, FirstLetterStyle, Subtitle, Title } from "./home-styled-component";
 
 export function Home() {
   return (
     <>
       <Container>
+        <BackgroundVideo autoPlay loop muted>
+          <source src={diffusion} type="video/mp4" />
+        </BackgroundVideo>
         <Content>
           <Title data-testid="full-name">
             <FirstLetterStyle>M</FirstLetterStyle>ergim{" "}
