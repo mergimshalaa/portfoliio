@@ -1,24 +1,26 @@
-import { Home } from "./pages/HomePage/HomePage"
-import "./App.css"
-import { Container } from "react-bootstrap"
-import { Route, Routes } from "react-router-dom"
-import { AboutPage } from "./pages/About/AboutPage"
-import { ProjectsPage } from "./pages/Projects/ProjectsPage"
-import { ResumePage } from "./pages/Resume/ResumePage"
+import { Home } from "./pages/HomePage/HomePage";
+import "./App.css";
+import { Container } from "react-bootstrap";
+import { Route, Routes } from "react-router-dom";
+import { AboutPage } from "./pages/About/AboutPage";
+import { ProjectsPage } from "./pages/Projects/ProjectsPage";
+import { ResumePage } from "./pages/Resume/ResumePage";
+import { Header } from "./components/Header/Header";
 
 function App() {
   return (
     <>
-          <Container>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/projects" element={<ProjectsPage />} />
-              <Route path="/resume" element={<ResumePage />} />
-            </Routes>
-          </Container>
+      <Header />
+      <Container>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/resume" element={<ResumePage />} />
+        </Routes>
+      </Container>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
