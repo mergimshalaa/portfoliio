@@ -15,6 +15,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   margin-right: 50px;
   margin-top 12rem;
+  z-index: 1;
 
   @media (max-width: 767px) {
     margin-right: 0;
@@ -24,7 +25,7 @@ export const Content = styled.div`
 export const Title = styled.h1`
   font-size: 4rem;
   letter-spacing: 2px;
-  color: white;
+  color: #000;
   margin-bottom: 1rem;
   vertical-align: top;
   font-family: "Montserrat", sans-serif;
@@ -47,7 +48,7 @@ export const Title = styled.h1`
 export const Subtitle = styled.h2`
   letter-spacing: 1.5px;
   font-size: 3rem;
-  color: white;
+  color: #000;
   margin: 0;
   height: 4.5rem;
   vertical-align: top;
@@ -75,6 +76,17 @@ export const Subtitle = styled.h2`
 `;
 
 export const FirstLetterStyle = styled.span`
-  color: red;
+  color: #003;
 `;
+
+export const BackgroundVideo = styled.video`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+`;
+
 
