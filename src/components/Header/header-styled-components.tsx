@@ -20,3 +20,21 @@ position: relative;
   color: blue;
 }
 `;
+
+export const StyledLinkHome = styled(NavLink)`
+margin-left: 5rem;
+color: #333;
+
+:hover {
+  color: blue;
+}
+
+@media (max-width: 768px) {
+  margin-left: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding-right: 20px;
+  transform: translateY(-50%);
+}
+`;
