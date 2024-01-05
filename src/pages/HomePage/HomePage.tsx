@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import diffusion from "../../img/diffusion1.mp4";
+import earth from "../../img/earth.mp4";
 import { BackgroundVideo, Container, Content, FirstLetterStyle, Subtitle, Title } from "./home-styled-component";
 
 export function Home() {
@@ -7,7 +7,7 @@ export function Home() {
     <>
       <Container>
         <BackgroundVideo autoPlay loop muted>
-          <source src={diffusion} type="video/mp4" />
+          <source src={earth} type="video/mp4" />
         </BackgroundVideo>
         <Content>
           <Title data-testid="full-name">
