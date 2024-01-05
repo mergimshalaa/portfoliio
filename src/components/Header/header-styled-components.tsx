@@ -21,6 +21,13 @@ position: relative;
 }
 `;
 
+export const StyledNav = styled(Nav)`
+@media (max-width: 768px) {
+  display: none;
+}
+`;
+
+
 export const StyledLinkHome = styled(NavLink)`
 margin-left: 5rem;
 color: #333;
