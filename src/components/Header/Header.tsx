@@ -4,10 +4,11 @@ import { FaHome } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { StyledLink, StyledLinkHome, StyledNav } from "./header-styled-components";
 import { HamburgerMenu } from "../MenuToggle/HamburgerMenu";
+import "./header.css";
 
 export function Header() {
   return (
-    <NavbarBs className="bg-light header sticky-top">
+    <NavbarBs className="bg-transparent header sticky-top">
       <div>
         <HamburgerMenu />
       </div>
