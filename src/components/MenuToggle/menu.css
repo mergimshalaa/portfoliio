@@ -1,0 +1,17 @@
+.menu-button {
+  border: none;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.offcanvas-body-custom {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 4rem;
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+}
