@@ -1,7 +1,7 @@
 import { Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import styled from "styled-components";
 import { FaHome, FaUser, FaProjectDiagram, FaFileAlt } from "react-icons/fa";
+import { StyledLink } from "./links-styled-components";
 
   interface NavbarLinksProps {
     handleClose: () => void;
@@ -25,28 +25,3 @@ import { FaHome, FaUser, FaProjectDiagram, FaFileAlt } from "react-icons/fa";
       </Nav>
     );
   }
-  
-
-const StyledLink = styled(NavLink)<{ exact?: boolean }>`
-  color: white;
-  margin-right: 10px;
-  margin-bottom: 30px;
-  letter-spacing: 1px;
-  font-weight: 300;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #B3B3B3;
-
-  text-decoration: none;
-  font-size: 1.3rem;
-  transition: all 0.7s ease;
-  outline: none;
-  position: relative;
-  
-
-  &:hover {
-    color: blue;
-  }
-`;

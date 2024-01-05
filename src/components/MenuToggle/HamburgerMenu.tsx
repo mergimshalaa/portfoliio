@@ -4,10 +4,10 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useMediaQuery } from 'react-responsive';
 import { FaBars } from 'react-icons/fa';
 import './menu.css';
-import styled from 'styled-components';
 
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { NavbarLinks } from './Links';
+import { Icons } from './hamburgerMenu-styled-component';
 
 
 export function HamburgerMenu() {
@@ -47,17 +47,3 @@ export function HamburgerMenu() {
   );
 }
 
-const Icons = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 5rem;
-
-  a {
-    margin-right: 20px;
-    color: #000;
-    transition: color 0.3s;
-    &:hover {
-      color: #b3b3b3;
-    }
-  }
-`;
