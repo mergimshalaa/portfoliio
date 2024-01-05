@@ -25,10 +25,11 @@ export const Content = styled.div`
 export const Title = styled.h1`
   font-size: 4rem;
   letter-spacing: 2px;
-  color: #000;
+  color: #fff;
   margin-bottom: 1rem;
   vertical-align: top;
-  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif;
 
   @media (max-width: 875px) {
     font-size: 3rem;
@@ -48,11 +49,11 @@ export const Title = styled.h1`
 export const Subtitle = styled.h2`
   letter-spacing: 1.5px;
   font-size: 3rem;
-  color: #000;
+  color: #fff;
   margin: 0;
   height: 4.5rem;
   vertical-align: top;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 
   @media (max-width: 875px) {
     font-size: 2.5rem;
@@ -76,7 +77,7 @@ export const Subtitle = styled.h2`
 `;
 
 export const FirstLetterStyle = styled.span`
-  color: #003;
+  color: #fff;
 `;
 
 export const BackgroundVideo = styled.video`
