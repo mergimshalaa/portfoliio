@@ -20,8 +20,8 @@ export function HamburgerMenu() {
   return (
     <>
       {isMobile && (
-        <Button className="menu-button" onClick={handleShow}>
-          <FaBars style={{ color: '#000', fontSize: '1.5rem' }} />
+        <Button className="menu-button bg-transparent" onClick={handleShow}>
+          <FaBars style={{ color: '#fff', fontSize: '1.5rem' }} />
         </Button>
       )}
 
