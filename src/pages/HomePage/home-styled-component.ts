@@ -25,10 +25,11 @@ export const Content = styled.div`
 export const Title = styled.h1`
   font-size: 4rem;
   letter-spacing: 2px;
-  color: #fff;
+  color: #F2F2F2;
   margin-bottom: 1rem;
   vertical-align: top;
   font-weight: 700;
+  -webkit-text-stroke: 2px #000;
   font-family: "Source Sans Pro", sans-serif;
 
   @media (max-width: 875px) {
@@ -49,7 +50,7 @@ export const Title = styled.h1`
 export const Subtitle = styled.h2`
   letter-spacing: 1.5px;
   font-size: 3rem;
-  color: #fff;
+  color: #F2F2F2;
   margin: 0;
   height: 4.5rem;
   vertical-align: top;
@@ -77,7 +78,7 @@ export const Subtitle = styled.h2`
 `;
 
 export const FirstLetterStyle = styled.span`
-  color: #fff;
+  color: #F2F2F2;
 `;
 
 export const BackgroundVideo = styled.video`
