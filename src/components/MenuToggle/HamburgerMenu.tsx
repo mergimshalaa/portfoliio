@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { useMediaQuery } from 'react-responsive';
 import { FaBars } from 'react-icons/fa';
+import { useMediaQuery } from 'react-responsive';
 import './menu.css';
 
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -20,13 +20,13 @@ export function HamburgerMenu() {
   return (
     <>
       {isMobile && (
-        <Button className="menu-button bg-transparent" onClick={handleShow}>
+        <Button className="menu-button bg-transparent" role="button" onClick={handleShow}>
           <FaBars style={{ color: '#fff', fontSize: '1.5rem' }} />
         </Button>
       )}
 
       <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton style={{backgroundColor: 'rgb(68 68 68 / 35%)'}}>
+        <Offcanvas.Header role="button" closeButton style={{backgroundColor: 'rgb(68 68 68 / 35%)'}}>
         </Offcanvas.Header>
         <Offcanvas.Body className="offcanvas-body-custom">
           <NavbarLinks handleClose={handleClose} />

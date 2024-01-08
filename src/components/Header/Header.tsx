@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, NavbarBrand, Navbar as NavbarBs } from "react-bootstrap";
+import { Container, Navbar as NavbarBs } from "react-bootstrap";
 import { FaHome } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import { StyledLink, StyledLinkHome, StyledNav } from "./header-styled-components";
 import { HamburgerMenu } from "../MenuToggle/HamburgerMenu";
+import { StyledLink, StyledLinkHome, StyledNav } from "./header-styled-components";
 import "./header.css";
 
 export function Header() {
@@ -12,7 +12,7 @@ export function Header() {
       <div>
         <HamburgerMenu />
       </div>
-      <StyledLinkHome to="/" as={NavLink}>
+      <StyledLinkHome aria-label="Homepage" to="/" as={NavLink}>
         <FaHome style={{ fontSize: "2rem" }} />
       </StyledLinkHome>
       <Container

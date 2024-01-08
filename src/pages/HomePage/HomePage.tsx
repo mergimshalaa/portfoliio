@@ -6,7 +6,7 @@ export function Home() {
   return (
     <>
       <Container>
-        <BackgroundVideo autoPlay loop muted>
+        <BackgroundVideo autoPlay loop muted preload="metadata">
           <source src={earth} type="video/mp4" />
         </BackgroundVideo>
         <Content>

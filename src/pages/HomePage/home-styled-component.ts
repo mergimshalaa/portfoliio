@@ -31,6 +31,8 @@ export const Title = styled.h1`
   font-weight: 700;
   -webkit-text-stroke: 2px #000;
   font-family: "Source Sans Pro", sans-serif;
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.3);
 
   @media (max-width: 875px) {
     font-size: 3rem;
