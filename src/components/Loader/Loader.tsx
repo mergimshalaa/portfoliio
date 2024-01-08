@@ -43,7 +43,7 @@ export const Loader: React.FC<Props> = ({ onFinish }) => {
 
   return (
     <>
-      <StyledLoader>
+      <StyledLoader data-testid="loader">
         <FaSpinner size={40} color="#fff" data-testid="fa-spinner"/>
       </StyledLoader>
     </>
