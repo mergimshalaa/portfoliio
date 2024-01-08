@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import earth from "../../img/earth.mp4";
+import earth from "../../img/earth1.mp4";
 import { BackgroundVideo, Container, Content, FirstLetterStyle, Subtitle, Title } from "./home-styled-component";
 
 export function Home() {
