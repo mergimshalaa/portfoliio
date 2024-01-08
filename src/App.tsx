@@ -6,9 +6,17 @@ import { AboutPage } from "./pages/About/AboutPage";
 import { ProjectsPage } from "./pages/Projects/ProjectsPage";
 import { ResumePage } from "./pages/Resume/ResumePage";
 import { Header } from "./components/Header/Header";
+import { useState } from "react";
+import { Loader } from "./components/Loader/Loader";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+  
   return (
+    <>
+    {isLoading ? (
+      <Loader onFinish={() => setIsLoading(false)} />
+    ) : (
     <>
       <Header />
       <Container>
@@ -19,6 +27,8 @@ function App() {
           <Route path="/resume" element={<ResumePage />} />
         </Routes>
       </Container>
+    </>
+    )}
     </>
   );
 }
