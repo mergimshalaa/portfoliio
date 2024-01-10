@@ -15,7 +15,7 @@ export function FrontendList() {
       >
         {techItems.map((techItem, index) => (
           <Col xs={4} md={2} key={index} className="tech-icons border-white">
-            <techItem.image size="50px" color={techItem.color} />
+            <techItem.image size="50px" color={techItem.color} data-testid={`tech-icon-${index}`} />
           </Col>
         ))}
       </Row>
