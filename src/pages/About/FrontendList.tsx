@@ -4,7 +4,7 @@ import { techItems } from "../../data/FrontendList";
 export function FrontendList() {
   return (
     <Container className="text-center text-icons">
-      <h2>Frontend</h2>
+      <h2 className="header-skills">Frontend</h2>
       <Row
         style={{
           justifyContent: "center",
@@ -14,7 +14,7 @@ export function FrontendList() {
         }}
       >
         {techItems.map((techItem, index) => (
-          <Col xs={4} md={2} key={index}>
+          <Col xs={4} md={2} key={index} className="tech-icons border-white">
             <techItem.image size="50px" color={techItem.color} />
           </Col>
         ))}
