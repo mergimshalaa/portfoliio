@@ -14,8 +14,8 @@ export function BackendList() {
         }}
       >
         {techItems.map((techItem, index) => (
-          <Col xs={4} md={2} key={index} className="tech-icons border-white">
-            <techItem.image size="50px" color={techItem.color} />
+          <Col xs={4} md={2} key={index} className="tech-icons border-white" data-testid="tech-icon">
+              <techItem.image size="50px" color={techItem.color} />
           </Col>
         ))}
       </Row>
