@@ -4,14 +4,21 @@ import { techItems } from "../../data/BackendList";
 export function BackendList() {
   return (
     <Container className="text-center text-icons">
-      <h2>Backend</h2>
-      <Row>
+      <h2 className="header-skills">Backend</h2>
+      <Row
+        style={{
+          justifyContent: "center",
+          fontSize: "3rem",
+          color: "white",
+          gap: ".3rem",
+        }}
+      >
         {techItems.map((techItem, index) => (
-          <Col xs={4} md={2} key={index}>
+          <Col xs={4} md={2} key={index} className="tech-icons border-white">
             <techItem.image size="50px" color={techItem.color} />
           </Col>
         ))}
       </Row>
     </Container>
   );
-};
+}
