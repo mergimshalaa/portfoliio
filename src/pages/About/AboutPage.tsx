@@ -1,16 +1,12 @@
-import { techItems } from "../../data/FrontendList";
+import { BackendList } from "./DevStack/BackendList";
+import { FrontendList } from "./DevStack/FrontendList";
 
 export function AboutPage() {
   return (
     <>
       <div>about me</div>
-      <div className="tech-items-container">
-        {techItems.map((tech, index) => (
-          <div key={index} className="tech-item" style={{ backgroundColor: tech.color }}>
-            {<tech.image />}
-          </div>
-        ))}
-      </div>
+      <FrontendList />
+      <BackendList /> 
     </>
   );
 }
