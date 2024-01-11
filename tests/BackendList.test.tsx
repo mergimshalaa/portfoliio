@@ -1,8 +1,8 @@
-import { describe, expect, it } from 'vitest';
-import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
+import { render } from '@testing-library/react';
+import { describe, expect, it } from 'vitest';
 import { techItems } from '../src/data/BackendList';
-import { BackendList } from '../src/pages/About/BackendList';
+import { BackendList } from '../src/pages/About/DevStack/BackendList';
 
 describe('BackendList component', () => {
   it('should render without crashing', () => {
