@@ -1,10 +1,11 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { techItems } from "../../data/FrontendList";
+import { techItems } from "../../../data/BackendList";
+import './techlist.css';
 
-export function FrontendList() {
+export function BackendList() {
   return (
     <Container className="text-center text-icons">
-      <h2 className="header-skills">Frontend</h2>
+      <h2 className="header-skills">Backend</h2>
       <Row
         style={{
           justifyContent: "center",
@@ -14,8 +15,8 @@ export function FrontendList() {
         }}
       >
         {techItems.map((techItem, index) => (
-          <Col xs={4} md={2} key={index} className="tech-icons border-white">
-            <techItem.image size="50px" color={techItem.color} data-testid={`tech-icon-${index}`} />
+          <Col xs={4} md={1} key={index} className="tech-icons border-white" data-testid="tech-icon">
+              <techItem.image size="50px" color={techItem.color} />
           </Col>
         ))}
       </Row>
