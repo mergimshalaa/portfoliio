@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { StyledLoader} from "./loader-styled-component";
+import { StyledContainer, StyledLoader} from "./loader-styled-component";
 import anime from "animejs/lib/anime.es.js";
 import { FaSpinner } from "react-icons/fa";
 
@@ -43,9 +43,11 @@ export const Loader: React.FC<Props> = ({ onFinish }) => {
 
   return (
     <>
+    <StyledContainer>
       <StyledLoader data-testid="loader">
         <FaSpinner size={40} color="#fff" data-testid="fa-spinner"/>
       </StyledLoader>
+    </StyledContainer>
     </>
   );
 };

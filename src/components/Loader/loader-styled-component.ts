@@ -16,3 +16,8 @@ export const StyledLoader = styled.div`
   transform: translate(-50%, -50%) rotate(0deg);
   animation: ${spinAnimation} 1s linear infinite;
 `;
+
+export const StyledContainer = styled.div`
+  height: 100vh;
+  background-color: #000;
+`;
