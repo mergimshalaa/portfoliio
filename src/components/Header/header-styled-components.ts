@@ -10,7 +10,7 @@ color: #fff;
 text-decoration: none;
 letter-spacing: 1px;
 text-transform: uppercase;
-font-size: 1.2rem;
+font-size: 1.1rem;
 transition: all 0.7s ease;
 font-family: "Source Sans Pro", sans-serif;
 outline: none;
