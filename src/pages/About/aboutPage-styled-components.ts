@@ -28,6 +28,11 @@ export const StyledText = styled.p`
   color: white;
   font-size: 1.1rem;
   line-height: 1.5;
+
+  @media (max-width: 520px) {
+    font-size: 1rem;
+    margin-left: 10px;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -35,7 +40,7 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   align-items: flex-start;
-  margin-top: 1rem;
+  margin-top: 48rem;
 
   @media (max-width: 992px) {
     flex-direction: column;
@@ -68,4 +73,14 @@ export const Styledh2 = styled.h2`
     font-size: 1.5rem;
     margin-left: 10px;
   }
+`;
+
+export const StyledIntro = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 40rem;
+  text-align: center;
+  color: #fff;
 `;
