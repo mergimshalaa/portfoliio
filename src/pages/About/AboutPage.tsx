@@ -12,13 +12,13 @@ export function AboutPage() {
           <img height={700} src={ManWorkingImage} alt="Man working in an office" loading="lazy"/>
         </ImgContainer>
         <TextWrapper>
-          <Styledh2>Hey there!</Styledh2>
+          <Styledh2>Get to know me!</Styledh2>
           {paragraphs.map((paragraph, index) => (
             <StyledText key={index}>{paragraph.text}</StyledText>
           ))}
         </TextWrapper>
       </Wrapper>
-
+      
       <FrontendList />
       <BackendList />
     </>
