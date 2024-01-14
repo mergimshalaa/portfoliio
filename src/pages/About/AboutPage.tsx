@@ -49,7 +49,7 @@ export function AboutPage() {
             loading="lazy"
           />
         </ImgContainer>
-        <TextWrapper ref={paragraphsRef} className="TextWrapper hidden">
+        <TextWrapper ref={paragraphsRef} className="TextWrapper hidden" data-testid="text-wrapper">
           <Styledh2>Get to know me!</Styledh2>
           {paragraphs.map((paragraph, index) => (
             <StyledText key={index}>{paragraph.text}</StyledText>

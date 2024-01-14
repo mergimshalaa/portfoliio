@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { expect, it } from "vitest";
+import { it, expect } from "vitest";
 import { paragraphs } from '../src/data/AboutTxt';
 import ManWorkingImage from "../src/img/man-office.png";
 import { AboutPage } from '../src/pages/About/AboutPage';
@@ -25,4 +25,20 @@ it('renders Styledh2 component with "Get to know me!" text', () => {
   render(<AboutPage />);
   const styledH2Element = screen.getByText(/Get to know me!/i);
   expect(styledH2Element).toBeInTheDocument();
+});
+
+it('applies "visible" class to TextWrapper after scrolling', () => {
+  render(<AboutPage />);
+  const textWrapperElement = screen.getByTestId('text-wrapper');
+  
+  window.scrollY = 500;
+  window.dispatchEvent(new Event('scroll'));
+
+  expect(textWrapperElement).toHaveClass('visible');
+});
+
+it('applies "hidden" class to TextWrapper initially', () => {
+  render(<AboutPage />);
+  const textWrapperElement = screen.getByTestId('text-wrapper');
+  expect(textWrapperElement).toHaveClass('hidden');
 });
