@@ -37,7 +37,7 @@ export const ProjectsData: ProjectsCards[] = [
   },
   {
     title: "Il' Pizzenza",
-    description:"This project was created out of focusing on mockups & design that I created with illustrator & Photoshop. Created in React, not functional.",
+    description:"This project was created out of focusing on mockups & design that I created with illustrator & Photoshop. Created in React.",
     videoSrc: ilpizzenzaVideo,
     link: "https://ilpizzenza.netlify.app/",
   },
