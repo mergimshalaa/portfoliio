@@ -1,30 +1,26 @@
-import { ProjectsData } from '../../data/ProjectsList';
-import { Container } from 'react-bootstrap';
 
+import { ProjectsData } from "../../data/ProjectsList";
+import { StyledVideoCard } from "./ProjectCards/project-card-styled-components";
+import { ProjectCard, CardDeck } from "./projects-styled-components";
 
 export function ProjectsPage() {
   return (
     <>
-      <div>
-        <h2>Projects</h2>
-        {ProjectsData.map((project, index) => (
-          <div key={index}>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <Container>
-              <video width="320" height="240" controls>
-                <source src={project.videoSrc} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </Container>
-            <p>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                View Project
-              </a>
-            </p>
-          </div>
-        ))}
-      </div>
+      <h2>Projects</h2>
+      <ProjectCard>
+        <CardDeck>
+          {ProjectsData.map((project) => (
+            <StyledVideoCard
+              key={project.title}
+              title={project.title}
+              description={project.description}
+              videoSrc={project.videoSrc}
+              link={project.link}
+            />
+          ))}
+        </CardDeck>
+      </ProjectCard>
     </>
   );
 }
+
