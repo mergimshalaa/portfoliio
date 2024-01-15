@@ -3,7 +3,7 @@ import { paragraphs } from "../../data/AboutTxt";
 import ManWorkingImage from "../../img/man-office.png";
 import { BackendList } from "./DevStack/BackendList";
 import { FrontendList } from "./DevStack/FrontendList";
-import Intro from "./PresentationTxt";
+import Intro from "./IntroTxt";
 import { ImgContainer, StyledText, Styledh2, TextWrapper, Wrapper } from "./aboutPage-styled-components";
 
 export function AboutPage() {
