@@ -1,7 +1,6 @@
-
 import { ProjectsData } from "../../data/ProjectsList";
 import { StyledVideoCard } from "./ProjectCards/project-card-styled-components";
-import { ProjectCard, CardDeck } from "./projects-styled-components";
+import { CardDeck, ProjectCard } from "./projects-styled-components";
 
 export function ProjectsPage() {
   return (
