@@ -3,7 +3,7 @@ import { StyledIntro } from "./aboutPage-styled-components";
 export default function Intro() {
   return (
     <>
-      <StyledIntro>
+      <StyledIntro data-testid="styled-intro">
         <h1>ABOUT ME</h1>
         <hr />
         <span>
