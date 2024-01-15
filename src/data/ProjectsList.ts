@@ -6,6 +6,26 @@ interface ProjectsCards {
 
 export const ProjectsData: ProjectsCards[] = [
   {
+    title: "Filmflix",
+    description:"Group project where we created a ''Netflix'', focus was writing tests for the application.",
+    link: "https://filmfliix.netlify.app/",
+  },
+  {
+    title: "Dictionary App",
+    description:"School project were the task was to create a dictionary app with API writing tests. This project was created with React.",
+    link: "https://ms-dictionary-app.netlify.app/",
+  },
+  {
+    title: "CodeWave",
+    description:"Group project where the focus was working agile with scrum. This project was created with React.",
+    link: "https://codewavedev.netlify.app/",
+  },
+  {
+    title: "Il' Pizzenza",
+    description:"This project was created out of focusing on mockups & design that I created with illustrator & Photoshop. Created in React, not functional.",
+    link: "https://ilpizzenza.netlify.app/",
+  },
+  {
     title: "Weather App",
     description:
       "This was my first project working with API, I created a weather app displaying current weather with the date.",
@@ -36,48 +56,9 @@ export const ProjectsData: ProjectsCards[] = [
     link: "https://mergimshalaa.github.io/Todo-list/",
   },
   {
-    title: "Resume",
-    description:
-      "Schoolproject were the task was to create an interactive & responsive resume of myself. Created with HTML & CSS and Vanilla Javascript.",
-    link: "https://mergimshalaa.github.io/Lab-cv/",
-  },
-  {
     title: "Codify - Still in process",
     description:
       "Created a startup for a website and it is still in process. This project is created with HTML, CSS and Vanilla Javascript.",
     link: "https://mergimshalaa.github.io/Codify-website/",
-  },
-  {
-    title: "Ölstugan Website copy",
-    description:
-      "School project with two classmates, the task was to modernize a choosen website. This project was created with HTML & CSS.",
-    link: "https://mergimshalaa.github.io/Olstugan-copy/",
-  },
-  {
-    title: "Apple Website copy",
-    description:
-      "First school project were me and another classmate created this apple website copy. Created with HTML & CSS.",
-    link: "https://mergimshalaa.github.io/Apple-Hemsida/",
-  },
-  {
-    title: "Login Form Tesla copy",
-    description:
-      "School exercise were the task was to build Tesla login form with local storage. This project was created with HTML & CSS.",
-    link: "https://mergimshalaa.github.io/ovning-form/",
-  },
-  {
-    title: "",
-    description:"",
-    link: "",
-  },
-  {
-    title: "",
-    description:"",
-    link: "",
-  },
-  {
-    title: "",
-    description:"",
-    link: "",
   },
 ];
