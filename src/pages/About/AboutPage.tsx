@@ -3,7 +3,8 @@ import { paragraphs } from "../../data/AboutTxt";
 import ManWorkingImage from "../../img/man-office.png";
 import { BackendList } from "./DevStack/BackendList";
 import { FrontendList } from "./DevStack/FrontendList";
-import { ImgContainer, StyledIntro, StyledText, Styledh2, TextWrapper, Wrapper } from "./aboutPage-styled-components";
+import Intro from "./PresentationTxt";
+import { ImgContainer, StyledText, Styledh2, TextWrapper, Wrapper } from "./aboutPage-styled-components";
 
 export function AboutPage() {
   const paragraphsRef = useRef(null);
@@ -30,16 +31,7 @@ export function AboutPage() {
   
   return (
     <>
-      <StyledIntro>
-        <h1>ABOUT ME</h1>
-        <hr />
-        <span>
-          Here you will find information about me, my current skills mostly
-          in terms of programming and technology and what I like to do in my
-          free time.
-        </span>
-      </StyledIntro>
-
+      <Intro />
       <Wrapper>
         <ImgContainer>
           <img
