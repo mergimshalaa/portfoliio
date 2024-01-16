@@ -19,7 +19,7 @@ interface ProjectsCards {
 export const ProjectsData: ProjectsCards[] = [
   {
     title: "Filmflix",
-    description:"Group project where we created a ''Netflix'', focus was writing tests for the application.",
+    description:"Group project where we created a 'Netflix', focus was writing tests for the application.",
     videoSrc: filmflixVideo,
     link: "https://filmfliix.netlify.app/",
   },

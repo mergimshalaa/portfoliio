@@ -1,5 +1,5 @@
 import { it, assert } from "vitest";
-import { render, screen, act, waitFor } from "@testing-library/react";
+import { render, screen, act } from "@testing-library/react";
 import { Loader } from "../src/components/Loader/Loader";
 
 it("renders the Loader component", async () => {
