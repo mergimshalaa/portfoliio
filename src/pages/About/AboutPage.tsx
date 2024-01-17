@@ -5,7 +5,7 @@ import { BackendList } from "./DevStack/BackendList";
 import { FrontendList } from "./DevStack/FrontendList";
 import Intro from "./IntroTxt";
 import { ImgContainer, StyledLine, StyledText, Styledh2, TextWrapper, Wrapper } from "./aboutPage-styled-components";
-import { ToolsList } from "./DevStack/ToolList";
+import { ToolList } from "./DevStack/ToolList";
 
 export function AboutPage() {
   const paragraphsRef = useRef(null);
@@ -50,7 +50,7 @@ export function AboutPage() {
           ))}
         </TextWrapper>
       </Wrapper>
-      <ToolsList />
+      <ToolList />
       <FrontendList />
       <BackendList />
     </>
