@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const TextWrapper = styled.div`
   flex: 1;
   margin-right: 2rem;
+  padding-bottom: 50px;
 
   @media (max-width: 768px) {
     margin-right: 0;
@@ -35,7 +36,7 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   align-items: flex-start;
-  margin-top: 48rem;
+  margin-top: 1rem;
 
   @media (max-width: 992px) {
     flex-direction: column;
@@ -77,5 +78,11 @@ export const StyledIntro = styled.div`
   transform: translate(-50%, -50%);
   max-width: 40rem;
   text-align: center;
+  color: #fff;
+`;
+
+
+export const StyledLine = styled.hr`
+  margin-top: 46rem;
   color: #fff;
 `;

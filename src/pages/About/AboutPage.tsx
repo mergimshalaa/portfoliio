@@ -4,7 +4,8 @@ import ManWorkingImage from "../../img/man-office.png";
 import { BackendList } from "./DevStack/BackendList";
 import { FrontendList } from "./DevStack/FrontendList";
 import Intro from "./IntroTxt";
-import { ImgContainer, StyledText, Styledh2, TextWrapper, Wrapper } from "./aboutPage-styled-components";
+import { ImgContainer, StyledLine, StyledText, Styledh2, TextWrapper, Wrapper } from "./aboutPage-styled-components";
+import { ToolsList } from "./DevStack/ToolList";
 
 export function AboutPage() {
   const paragraphsRef = useRef(null);
@@ -32,6 +33,7 @@ export function AboutPage() {
   return (
     <>
       <Intro />
+      <StyledLine />
       <Wrapper>
         <ImgContainer>
           <img
@@ -48,7 +50,7 @@ export function AboutPage() {
           ))}
         </TextWrapper>
       </Wrapper>
-
+      <ToolsList />
       <FrontendList />
       <BackendList />
     </>
