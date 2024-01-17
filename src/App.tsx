@@ -8,6 +8,7 @@ import { ResumePage } from "./pages/Resume/ResumePage";
 import { Header } from "./components/Header/Header";
 import { useState } from "react";
 import { Loader } from "./components/Loader/Loader";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -20,6 +21,7 @@ function App() {
     <>
       <Header />
       <Container>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
