@@ -10,6 +10,7 @@ export function FrontendList() {
           justifyContent: "center",
           fontSize: "3rem",
           color: "white",
+          paddingBottom: '50px',
           gap: ".3rem",
         }}
       >

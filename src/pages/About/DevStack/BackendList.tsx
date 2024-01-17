@@ -11,6 +11,7 @@ export function BackendList() {
           justifyContent: "center",
           fontSize: "3rem",
           color: "white",
+          paddingBottom: '50px',
           gap: ".3rem",
         }}
       >
