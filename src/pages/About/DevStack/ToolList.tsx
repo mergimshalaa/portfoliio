@@ -11,7 +11,7 @@ export function ToolsList() {
       <Row
         style={{
           justifyContent: 'center',
-          paddingBottom: '50px',
+          paddingBottom: '40px',
           fontSize: '3rem',
           color: 'white',
           gap: '.3rem',
