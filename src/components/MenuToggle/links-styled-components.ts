@@ -21,6 +21,6 @@ export const StyledLink = styled(NavLink)<{ exact?: boolean }>`
   
 
   &:hover {
-    color: blue;
+    color: white;
   }
 `;

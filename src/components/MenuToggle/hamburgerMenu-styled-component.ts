@@ -7,10 +7,10 @@ export const Icons = styled.div`
 
   a {
     margin-right: 20px;
-    color: #000;
+    color: rgb(179, 179, 179);
     transition: color 0.3s;
     &:hover {
-      color: #b3b3b3;
+      color: #fff;
     }
   }
 `;
