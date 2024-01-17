@@ -3,9 +3,9 @@ import { paragraphs } from "../../data/AboutTxt";
 import ManWorkingImage from "../../img/man-office.png";
 import { BackendList } from "./DevStack/BackendList";
 import { FrontendList } from "./DevStack/FrontendList";
-import Intro from "./IntroTxt";
-import { ImgContainer, StyledLine, StyledText, Styledh2, TextWrapper, Wrapper } from "./aboutPage-styled-components";
 import { ToolList } from "./DevStack/ToolList";
+import { ImgContainer, StyledLine, StyledText, Styledh2, TextWrapper, Wrapper } from "./aboutPage-styled-components";
+import AboutIntro from "./AboutIntro";
 
 export function AboutPage() {
   const paragraphsRef = useRef(null);
@@ -32,7 +32,7 @@ export function AboutPage() {
   
   return (
     <>
-      <Intro />
+      <AboutIntro />
       <StyledLine />
       <Wrapper>
         <ImgContainer>

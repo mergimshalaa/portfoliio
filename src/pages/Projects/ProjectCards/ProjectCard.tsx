@@ -1,6 +1,6 @@
 import { Card, } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { StyledCard, Video, StyledText, StyledButton, StyledTitle } from "./project-card-styled-components";
+import { StyledButton, StyledCard, StyledText, StyledTitle, Video } from "./project-card-styled-components";
 
 type VideoCardProps = {
   title: string;
