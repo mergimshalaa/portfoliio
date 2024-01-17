@@ -26,7 +26,7 @@ export function HamburgerMenu() {
       )}
 
       <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header role="button" closeButton style={{backgroundColor: 'rgb(68 68 68 / 35%)'}}>
+        <Offcanvas.Header role="button" closeButton style={{backgroundColor: '#333333'}}>
         </Offcanvas.Header>
         <Offcanvas.Body className="offcanvas-body-custom">
           <NavbarLinks handleClose={handleClose} />
