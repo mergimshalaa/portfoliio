@@ -1,11 +1,13 @@
 import { ProjectsData } from "../../data/ProjectsList";
 import { StyledVideoCard } from "./ProjectCards/project-card-styled-components";
-import { CardDeck, ProjectCard } from "./projects-styled-components";
+import ProjectIntro from "./ProjectIntro";
+import { CardDeck, ProjectCard, StyledLine } from "./projects-styled-components";
 
 export function ProjectsPage() {
   return (
     <>
-      <h2>Projects</h2>
+      <ProjectIntro />
+      <StyledLine />
       <ProjectCard>
         <CardDeck>
           {ProjectsData.map((project) => (

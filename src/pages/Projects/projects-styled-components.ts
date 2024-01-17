@@ -19,5 +19,17 @@ export const CardDeck = styled.div`
   width: 100%;
 `;
 
+export const StyledIntro = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 40rem;
+  text-align: center;
+  color: #fff;
+`;
 
-
+export const StyledLine = styled.hr`
+  margin-top: 46rem;
+  color: #fff;
+`;
