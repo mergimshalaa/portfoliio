@@ -27,7 +27,7 @@ export function Home() {
                 autoStart: true,
                 loop: true,
                 deleteSpeed: 35,
-                delay: 100,
+                delay: 150,
               }}
               onInit={(typewriter) => {
                 typewriter.changeDeleteSpeed(20).start();

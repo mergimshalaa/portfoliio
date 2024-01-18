@@ -34,7 +34,7 @@ export const Loader: React.FC<Props> = ({ onFinish }) => {
           complete: () => {
             setTimeout(() => {
               onFinish();
-            }, 170);
+            }, 350);
           },
         });
       },
