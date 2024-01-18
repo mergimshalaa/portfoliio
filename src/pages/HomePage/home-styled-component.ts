@@ -91,6 +91,7 @@ export const BackgroundVideo = styled.video`
   height: 100%;
   object-fit: cover;
   z-index: 0;
+  filter: brightness(50%);
 `;
 
 
