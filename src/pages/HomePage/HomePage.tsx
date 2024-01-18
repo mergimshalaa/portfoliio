@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import earth from "../../img/earthspinner.mp4";
+import { videoData } from "../../data/HomePageEarth";
 import { BackgroundVideo, Container, Content, FirstLetterStyle, Subtitle, Title } from "./home-styled-component";
 
 export function Home() {
@@ -7,7 +7,7 @@ export function Home() {
     <>
       <Container>
         <BackgroundVideo muted autoPlay loop playsInline preload="metadata">
-          <source src={earth} type="video/mp4" />
+          <source src={videoData.videoSrc} type="video/mp4" />
         </BackgroundVideo>
         <Content>
           <Title data-testid="full-name">
