@@ -9,6 +9,7 @@ import { Header } from "./components/Header/Header";
 import { useState } from "react";
 import { Loader } from "./components/Loader/Loader";
 import ScrollToTop from "./components/ScrollToTop";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -29,6 +30,7 @@ function App() {
           <Route path="/resume" element={<ResumePage />} />
         </Routes>
       </Container>
+      <Footer />
     </>
     )}
     </>
