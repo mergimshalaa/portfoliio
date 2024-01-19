@@ -85,4 +85,8 @@ export const StyledIntro = styled.div`
 export const StyledLine = styled.hr`
   margin-top: 46rem;
   color: #fff;
+
+  @media (max-width: 520px) {
+    margin-top: 40rem;
+  }
 `;
