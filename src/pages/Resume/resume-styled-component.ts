@@ -32,6 +32,7 @@ export const Container = styled.div`
 
 export const StyledButton = styled.button`
   margin-top: 4rem;
+  margin-bottom: 4rem;
   display: inline-block;
   font-size: 1rem;
   font-weight: 700;
