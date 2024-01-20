@@ -20,7 +20,6 @@ export const FooterWrapper = styled.footer`
 
   @media (max-width: 640px) {
     margin-top: 3rem;
-  }
 `;
 
 export const IconWrapper = styled.div`
