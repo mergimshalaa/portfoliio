@@ -17,6 +17,10 @@ export const FooterWrapper = styled.footer`
   backdrop-filter: blur(7px) brightness(0.5);
   background-color: rgba(0, 0, 0, 0.8);
   box-shadow: 0px 0.5px 5px #292829;
+
+  @media (max-width: 640px) {
+    margin-top: 0;
+  }
 `;
 
 export const IconWrapper = styled.div`
