@@ -21,7 +21,7 @@ describe("About Intro Component", () => {
   it('renders the "About Me" text from the text I added in the data file', () => {
     render(<AboutIntro />);
     const aboutMeText = screen.getByText(
-      /Here you will find information about me, my current skills mostly in terms of programming and technology and what I like to do in my freetime./i
+      /Here you will find information about me, my current skills mostly in terms of programming and technology./i
     );
     expect(aboutMeText).toBeInTheDocument();
   });
