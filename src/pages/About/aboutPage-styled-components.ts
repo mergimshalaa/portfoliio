@@ -34,12 +34,12 @@ export const StyledText = styled.p`
 export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
   align-items: flex-start;
   margin-top: 1rem;
 
   @media (max-width: 992px) {
     flex-direction: column;
+    align-items: center;
   }
 `;
 
