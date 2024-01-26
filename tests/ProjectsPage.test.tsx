@@ -1,9 +1,9 @@
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import { expect, it, describe } from "vitest";
+import { describe, expect, it } from "vitest";
 import { StyledVideoCard } from "../src/pages/Projects/ProjectCards/project-card-styled-components";
-import { ProjectsPage } from "../src/pages/Projects/ProjectsPage";
 import ProjectIntro from "../src/pages/Projects/ProjectIntro";
+import { ProjectsPage } from "../src/pages/Projects/ProjectsPage";
 
 describe("Project intro Component", () => {
   it('renders header with "PROJECTS"', () => {

@@ -1,4 +1,4 @@
-import { Card, } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { StyledButton, StyledCard, StyledText, StyledTitle, Video } from "./project-card-styled-components";
 
